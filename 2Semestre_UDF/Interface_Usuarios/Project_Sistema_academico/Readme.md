@@ -151,7 +151,7 @@ App
  
 Acesse o protótipo interativo completo diretamente no Figma:
  
-[![Abrir no Figma](https://img.shields.io/badge/Abrir%20Protótipo%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/3u0Ksusbyrhatyvk8Lxpc5/Sem-t%C3%ADtulo?node-id=0-1&t=OuG704Tm9ulBxClT-1)
+[![Abrir no Figma](https://www.figma.com/proto/3u0Ksusbyrhatyvk8Lxpc5/Sem-t%C3%ADtulo?node-id=1-3&p=f&t=xJKjzkjcMZp3QC41-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1)
  
 > 💡 **Dica:** Use o modo de apresentação (`▶ Play`) no canto superior direito do Figma para navegar pelos fluxos interativos.
  
