@@ -85,7 +85,72 @@ O **Portal do Aluno** nasce como resposta direta a esse problema, propondo uma i
  
 | Tela | Funcionalidade Principal | Componentes-Chave |
 | :--- | :--- | :--- |
-| **Login / Change Password** | Acesso seguro e recuperação de credenciais | Input, Button CTA, Feedback de erro |
+| **Login / Change Password** | Acesso seguro e rec# 📱 Portal do Aluno — Mobile UX/UI Design
+│
+└── Área do Aluno (autenticado)
+    ├── Dashboard          → Resumo do dia + atalhos rápidos
+    ├── Courses            → Lista de disciplinas matriculadas
+    │   └── Course Detail  → Notas, conteúdo e frequência
+    ├── Notifications      → Avisos institucionais
+    ├── Calendar           → Grade mensal interativa
+    └── Activities         → Tarefas por disciplina
+        └── New Task       → Criar nova tarefa
+```
+ 
+---
+ 
+## 🎨 Design System
+ 
+### Processo de Design — 3 Fases
+ 
+| Fase | Descrição |
+| :--- | :--- |
+| **Frame 1 — Low-Fidelity** | Wireframes em escala de cinza para validação de fluxo e arquitetura |
+| **Frame 2 — Mid-Fidelity** | Estrutura com hierarquia visual, tipografia e grid definidos |
+| **Frame 3+ — High-Fidelity** | Protótipo final com componentes, estados e interações completas |
+ 
+### Boas Práticas de UX Aplicadas
+ 
+- 👍 **Thumb Zone:** Botões de ação principal (CTAs) posicionados na zona de fácil alcance do polegar
+- ⚡ **Feedback Imediato:** Estados visuais de erro, sucesso e loading mapeados em todos os formulários
+- 🧹 **Hierarquia Clara:** Uso de tamanho, peso e cor para guiar o olhar sem sobrecarga cognitiva
+- 📐 **Grid de 4 colunas** com margens de 16px para dispositivos móveis
+- 🔁 **Componentização total:** Botões, inputs, ícones e cards reutilizáveis — espelhando a lógica do React Native
+- 🚨 **Urgência visível:** Prazos próximos destacados com cor e badge para usuários com pouco tempo disponível
+ 
+---
+ 
+## 🛠️ Tecnologias e Ferramentas
+ 
+| Ferramenta | Uso |
+| :--- | :--- |
+| **Figma** | Design, prototipagem e Design System |
+| **React Native** *(planejado)* | Implementação do frontend mobile |
+| **PostgreSQL** *(planejado)* | Banco de dados relacional para persistência |
+ 
+---
+ 
+## 🔗 Acesso ao Protótipo
+ 
+Acesse o protótipo interativo completo diretamente no Figma:
+ 
+[![Abrir no Figma](https://www.figma.com/proto/3u0Ksusbyrhatyvk8Lxpc5/Sem-t%C3%ADtulo?node-id=1-3&p=f&t=xJKjzkjcMZp3QC41-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1)
+ 
+> 💡 **Dica:** Use o modo de apresentação (`▶ Play`) no canto superior direito do Figma para navegar pelos fluxos interativos.
+ 
+---
+ 
+## 👤 Autor
+ 
+**Gustavo Alves de Melo Diniz**
+*Estudante de Análise e Desenvolvimento de Sistemas — UDF*
+
+---
+ 
+## 📄 Licença
+ 
+Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+uperação de credenciais | Input, Button CTA, Feedback de erro |
 | **Dashboard** | Boas-vindas, atalhos rápidos para todas as seções | Cards de acesso, Bottom Nav, Avatar |
 | **Courses** | Lista de disciplinas matriculadas | Cards de matéria, Ícones por categoria |
 | **Courses Detail** | Detalhe da disciplina: professor, conteúdo, frequência e notas | Tabs (Grades / Content / Attendance), Lista de materiais |
@@ -151,7 +216,7 @@ App
  
 Acesse o protótipo interativo completo diretamente no Figma:
  
-[![Abrir no Figma](https://www.figma.com/proto/3u0Ksusbyrhatyvk8Lxpc5/Sem-t%C3%ADtulo?node-id=1-3&p=f&t=xJKjzkjcMZp3QC41-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1)
+[![Abrir no Figma](https://img.shields.io/badge/Abrir%20Protótipo%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/3u0Ksusbyrhatyvk8Lxpc5/Sem-t%C3%ADtulo?node-id=0-1&t=OuG704Tm9ulBxClT-1)
  
 > 💡 **Dica:** Use o modo de apresentação (`▶ Play`) no canto superior direito do Figma para navegar pelos fluxos interativos.
  
@@ -159,9 +224,12 @@ Acesse o protótipo interativo completo diretamente no Figma:
  
 ## 👤 Autor
  
-**Gustavo Alves de Melo Diniz**
+**Gustavo Alves Melo Diniz**
 *Estudante de Análise e Desenvolvimento de Sistemas — UDF*
-
+ 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](#)
+ 
 ---
  
 ## 📄 Licença
